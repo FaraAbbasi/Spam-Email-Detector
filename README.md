@@ -49,8 +49,8 @@ or uploading emails and getting instant predictions.
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/FaraAbbasi/Spam-Email-Detector.git
+cd Spam_Email_Detection
 ```
 
 ### 2. Install dependencies
