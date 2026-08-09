@@ -8,3 +8,7 @@ __pycache__/
 
 # IDE configurations (VS Code)
 .vscode/
+
+# Ignore Docker Files 
+.dockerignore
+Dockerfile
