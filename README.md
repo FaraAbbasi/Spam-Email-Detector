@@ -37,9 +37,6 @@ or uploading emails and getting instant predictions.
 ├── requirements.txt              # Pinned, conflict-checked Python dependencies
 └── experimentss/
     ├── train_model.ipynb         # Model training code
-├── Dockerfile                    # Container build for the backend
-├── .dockerignore
-├── .gitignore
 
 ```
 
@@ -95,22 +92,6 @@ API. There's no separate file to open.
 
 Interactive API docs (for the `/predict` endpoint itself): `http://127.0.0.1:8000/docs`
 
----
-
-## Running with Docker
-
-Build and run the backend in a container:
-
-```bash
-docker build -t spam-classifier .
-docker run -p 8000:8000 spam-classifier
-```
-
-The `models/` folder must be present in the build context (next to the
-`Dockerfile`) so it gets copied into the image.
-
-Once running, open `index.html` in your browser as usual — it talks to the
-containerized API the same way it would a local one.
 
 ---
 
