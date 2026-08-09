@@ -35,7 +35,8 @@ or uploading emails and getting instant predictions.
     ├── best_spam_model.keras     # Trained GRU model
     └── tokenizer.pickle          # Fitted Keras tokenizer used at training time             
 ├── requirements.txt              # Pinned, conflict-checked Python dependencies
-├── train_model.ipynb             # Model training code
+└── experimentss/
+    ├── train_model.ipynb         # Model training code
 ├── Dockerfile                    # Container build for the backend
 ├── .dockerignore
 ├── .gitignore
